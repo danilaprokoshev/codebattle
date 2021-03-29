@@ -4,8 +4,10 @@ import Gon from 'gon';
 import standart from '../config/sound/standart';
 import cs from '../config/sound/cs';
 import dendy from '../config/sound/dendy';
+import mk from '../config/sound/mk';
 
 const audioPaths = {
+  mk: '/assets/audio/audioSprites/mkSpritesAudio.wav',
   standart: '/assets/audio/audioSprites/standartSpritesAudio.wav',
   cs: '/assets/audio/audioSprites/csSpritesAudio.wav',
   dendy: '/assets/audio/audioSprites/dendySpritesAudio.wav',
@@ -13,6 +15,7 @@ const audioPaths = {
 };
 
 const audioConfigs = {
+  mk,
   standart,
   cs,
   dendy,
